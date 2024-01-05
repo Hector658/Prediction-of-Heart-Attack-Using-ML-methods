@@ -45,7 +45,17 @@ The dataset contains multiple columns with information about the patients
 ## Data Exploratory Analysis
 
 The relation between positive cases of heart disease and the age of each person shows 
+a clear increase in the positive cases between the 40 and 60 years old, as shown in the ages graph 
 
+
+![cases_by_age](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/7e755043-3f5b-4b78-91f0-d550fc680f04)
+
+We can see this more clearly in the normal distribution graph
+
+
+![normal_dist](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/e40d8295-eadb-4272-8434-0a4470078bd9)
+
+Another correlation found according to the sex of the patients shows how the men are more 
 
 
 
