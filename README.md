@@ -21,7 +21,7 @@ The dataset contains multiple columns with information about the patients
 
 
 * Age : Age of the patient [years]
-* Sex : Sex of the patient[1:Male, 0:Female]
+* Sex : Sex of the patient[1,0]
 * cp : Chest Pain type chest pain type
   * Value 1: typical angina
   * Value 2: atypical angina
@@ -55,7 +55,47 @@ We can see this more clearly in the normal distribution graph
 
 ![normal_dist](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/e40d8295-eadb-4272-8434-0a4470078bd9)
 
-Another correlation found according to the sex of the patients shows how the men are more 
+Another correlation found according to the sex shows how the patients of group 1 are slightly more likely to develop heart disease.
+
+
+![pos_sex](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/a6627ea8-a0e2-4d6e-9448-69d639ccb846)
+
+
+
+Unfortunately this is biased.
+
+Looking at the total number of patients, the group 1 is formed by way more patients than group 0 in fact more than double, so it´s logical that there will be more positive cases.
+A more accurate approach is the ratio between the total of patients by group and the positive cases, finding that the group 0 is more likely to suffer a heart disease.
+
+
+![Captura de pantalla 2024-01-05 173159](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/c3844b7f-e01c-4145-919b-e98350e93324)
+
+
+All the other parameters are more complex tests but they are related about a good health, generally speaking, these are the most influential parameters.
+
+
+![heatmap](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/0421be2c-61fd-4b6d-a731-1b3c5f60c03b)
+
+
+## Model Evaluation
+
+Five different models were used:
+* Logistic Regression
+* Naive-Bayes
+* K-Nearest Neighbour
+* Support Vector Classifier
+* 
+
+
+
+
+
+
+
+
+
+
+
 
 
 
