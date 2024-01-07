@@ -1,4 +1,4 @@
-# Prediction of heart disease using different Machine Learning Methods
+# Prediction of heart attack using different Machine Learning Methods
 
 
 ![heart](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/2a305b47-666b-416d-9281-377ba7f063ff)
