@@ -1,5 +1,15 @@
 # Prediction of heart disease using different Machine Learning Methods
 
+
+![heart](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/2a305b47-666b-416d-9281-377ba7f063ff)
+
+Cardiovascular disease (CVD) is any disease involving the heart or blood vessels.
+Cardiovascular diseases are the leading cause of death worldwide except Africa. Together CVD resulted in 17.9 million deaths (32.1%) in 2015, up from 12.3 million (25.8%) in 1990.
+Deaths, at a given age, from CVD are more common and have been increasing in much of the developing world, while rates have declined in most of the developed world since the 1970s
+
+
+
+
 ## Project Overview
 In pursuit of find a reliable method to determine when a person could have heart disease 
 a dataset with various parameters related to heart health was downloaded and several methods of 
@@ -10,7 +20,6 @@ Machine Learning were applied to it, in order to determine their reliability, th
 * Logistic Regression
 * Naive-Bayes method
 * K-Neighbors classifier
-* Support Vector classifier
 * Decission Tree Regression
 * Confusion Matrixes
 * Accuracy Calculation
@@ -79,17 +88,45 @@ All the other parameters are more complex tests but they are related about a goo
 
 ## Model Evaluation
 
-Five different models were used:
+Four different models were used:
 * Logistic Regression
 * Naive-Bayes
 * K-Nearest Neighbour
-* Support Vector Classifier
-* 
+* Decission Tree Regression
+
+All these methods were used in the dataset, splitting the data in a training set and a test set we were able to train all the four models 
+and predict new values, allowing us to calculate the accuracy of each one, as well as their confussion matrix.
+
+
+![Captura de pantalla 2024-01-07 131316](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/79dac82d-d238-4b63-941c-740c89fcc7c9)
 
 
 
+The Decission Tree Regressor resulted to be the most accurate and thus the one chosen to predict new data.
 
 
+## Generating data to test the model
+
+
+Once we have decided on the model to be used we create a dataset for four different patients with distinct
+parameters randomly chosen 
+
+
+![Captura de pantalla 2024-01-07 133957](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/56fc8d76-f657-40e8-9592-a5fb896597dc)
+
+
+And by applying the Decission Tree Regression method we can finally preddict the less or more chances to get a heart attack for each one
+
+
+![Captura de pantalla 2024-01-07 134147](https://github.com/Hector658/Prediction-of-Heart-Disease-Using-ML-methods/assets/146046209/7b8f3ff3-adb0-4e38-a77c-4bb2ea7b76d4)
+
+
+## Bibliography
+
+* https://en.wikipedia.org/wiki/Cardiovascular_disease
+* https://www.healthline.com/health/heart-disease/statistics
+*  https://www.kaggle.com/datasets/johnsmith88/heart-disease-dataset
+*  https://scikit-learn.org/stable/#
 
 
 
